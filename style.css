@@ -7,6 +7,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 nav {
@@ -22,13 +23,21 @@ nav > ul {
   height: 28px;
 }
 
-nav a {
-  text-decoration: none;
-  font-family: Poppins, sans-serif;
+nav li {
+  font-weight: 400;
+}
+
+nav li:first-child {
   font-weight: 600;
+}
+
+nav a {
   font-size: 16px;
+  font-style: normal;
   line-height: 28px;
   color: #22343d;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
 }
 
 nav img {
@@ -57,7 +66,6 @@ nav img {
 .btn-outline-success {
   background-color: #ffffff;
   border-radius: 4px;
-  border: none;
   height: 43px;
   font-family: Poppins, sans-serif;
   font-weight: 600;
@@ -100,13 +108,50 @@ nav img {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 400px 600px;
+  gap: 25px;
 }
 
-#product {
-  display: flex;
+.grid-item h1 {
+  font-family: poppins, sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 60px;
+  color: #22343d;
 }
 
-.floor > img {
-  width: 600px;
+.grid-item p {
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #22343d;
+}
+
+.grid-item .btn-group {
+  margin: 45px 10px 0px 0px;
+  float: left;
+}
+
+.grid-item .btn-success {
+  width: 175px;
+  height: 53px;
+  font-weight: 700;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.grid-item .btn-outline-success {
+  width: 175px;
+  height: 23px;
+  padding: 0;
+  text-decoration: underline;
+  color: #02897a;
+  border: none;
+  margin-left: 10px;
+  display: inline-flex;
+  gap: 8.5px;
+  vertical-align: sub;
 }
