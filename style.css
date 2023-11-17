@@ -110,7 +110,7 @@ nav img {
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-columns: 400px 600px;
+  grid-template-columns: 410px 600px;
   gap: 25px;
 }
 
@@ -133,6 +133,9 @@ nav img {
 .grid-item .btn-group {
   margin: 45px 10px 0px 0px;
   float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid-item .btn-success {
@@ -151,7 +154,13 @@ nav img {
   color: #02897a;
   border: none;
   margin-left: 10px;
-  display: inline-flex;
-  gap: 8.5px;
-  vertical-align: sub;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#play-icon {
+  height: 20px;
+  width: 20px;
 }
