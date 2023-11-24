@@ -108,20 +108,20 @@ nav img {
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-columns: 410px 600px;
-  gap: 20px;
+  grid-template-columns: 400px 500px;
+  gap: 10px;
 }
 
 .grid-item1 h1 {
   font-weight: 800;
-  font-size: 36px;
+  font-size: 2.25em;
   line-height: 60px;
   color: #22343d;
 }
 
 .grid-item1 p {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.13em;
   line-height: 28px;
   color: #22343d;
 }
@@ -170,7 +170,7 @@ nav img {
   height: auto;
 }
 
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 920px) {
   body {
     margin: 0;
   }
