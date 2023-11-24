@@ -112,21 +112,21 @@ nav img {
   gap: 25px;
 }
 
-.grid-item h1 {
+.grid-item1 h1 {
   font-weight: 800;
   font-size: 2.5em;
   line-height: 60px;
   color: #22343d;
 }
 
-.grid-item p {
+.grid-item1 p {
   font-weight: 400;
   font-size: 1.125em;
   line-height: 28px;
   color: #22343d;
 }
 
-.grid-item .btn-group {
+.grid-item1 .btn-group {
   margin: 45px 10px 0px 0px;
   float: left;
   display: flex;
@@ -134,7 +134,7 @@ nav img {
   align-items: center;
 }
 
-.grid-item .btn-success {
+.grid-item1 .btn-success {
   width: 175px;
   height: 53px;
   font-weight: 700;
@@ -142,7 +142,7 @@ nav img {
   margin-right: 10px;
 }
 
-.grid-item .btn-outline-success {
+.grid-item1 .btn-outline-success {
   width: 175px;
   height: 23px;
   padding: 0;
@@ -212,6 +212,15 @@ nav img {
 
   #menu-collapse:not(:checked) ~ nav {
     display: none;
+  }
+
+  .grid-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: unset;
+    justify-content: unset;
+    align-items: unset;
+
   }
 
   .grid-item1 {
